@@ -1,9 +1,16 @@
 import { StatusBar } from "expo-status-bar"
 import { StyleSheet, Text, View } from "react-native"
+// import { NativeWindStyleSheet } from "nativewind"
+import tw from "twrnc"
+
+// NativeWindStyleSheet.setOutput({
+//   default: "native",
+// })
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    // <View style={styles.container}>
+    <View style={tw`flex-1 items-center justify-center bg-white`}>
       <Text>Open up App.js to start working on your app!</Text>
       <Text>Open up App.js to start working on your app!</Text>
       <Text>Open up App.js to start working on your app!</Text>
